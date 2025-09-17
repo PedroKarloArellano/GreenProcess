@@ -199,6 +199,10 @@ button{
   width: 30px;
 }
 
+.footer-container{
+  gap: 50px;
+}
+
 .info{
   text-align: center;
   margin: 0;
