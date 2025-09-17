@@ -1,0 +1,206 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdf2ce;
+  min-height: 95vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.main{
+  /*background-color: aquamarine;*/
+}
+
+.barra a{
+  color: #76A257 !important;
+}
+
+button{
+  background: #76A257 !important;
+}
+
+.hero-section button{
+  color: #298842;
+  background-color: #fff !important;
+  border-radius: 50px !important;
+}
+
+.hero-section{
+  background-image: url(../assets/images/{ACC646C8-B545-484C-AFDB-FFF340369CC9}\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-top: 5rem;
+    height: 60vh;
+
+    color: white;
+
+    text-align: center;
+}
+
+.servicios{
+  margin: 5% 0;
+  color: #2D7A3F;
+}
+
+.servicios h1{
+  color: #9EC10D; 
+}
+
+.servicios img{
+  height: 100px;
+  width: 100px;
+}
+
+.servicios-texto{
+  margin: 50px;
+  text-align: center;
+}
+
+.servicios-item{
+  text-align: center;
+  margin: 0 50px;
+}
+
+.diferenciadores{
+  color: #429257;
+  background-color: rgba(37,170,68,33%);
+  gap: 50px;
+}
+
+.dif-items{
+  gap: 30px;
+}
+
+.accordion-button{
+  color:white!important;
+  background-color: #2D387A !important;
+}
+
+.accordion-body{
+  color:#e1e6ff!important;
+  background-color: #366A11 !important;
+}
+
+@keyframes slide {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.car-logos{
+  overflow: hidden;
+  padding: 60px 0;
+
+  background: white;
+  white-space: nowrap;
+
+  position: relative;
+}
+
+.car-logos:hover .logos-slide{
+  animation-play-state: paused;
+}
+
+.car-logos::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255,255,255,0),white);
+  content: "";
+  z-index: 2;
+}
+
+.car-logos::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0),white);
+  content: "";
+  z-index: 2;
+}
+
+
+.logos-slide{
+  display: inline-block;
+  animation: 30s slide infinite linear;
+}
+
+.logos-slide img{
+  height: 100px;
+  margin: 0 80px;
+}
+
+.clientes-title{
+  margin: 25px 0;
+  color: #429257;
+}
+
+.clientes-title strong{
+  color: #9EC10D;
+}
+
+.nuestros-clientes{
+  display: flex;
+  flex-direction: column;
+
+  margin: 50px 0;
+}
+
+.con-text{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.con-text strong{
+  color: #76A257;
+}
+
+.contanct-form{
+  color: white;
+  background: #76A257;
+  padding: 25px; 
+  border-radius: 10px;
+}
+
+.contanct-form button{
+  color: black;
+  background: white  !important;
+}
+
+.folleto{
+  background: #e8f1c6;
+  margin: 2% 0;
+  padding: 3%;
+
+  font-weight: bolder;
+
+  text-align: center;
+}
+
+.folleto button{
+  border-radius: 50px !important;
+}
+
+.footer{
+  color: white;
+  background: #366A11;
+  padding: 50px 0;
+}
+
+.footer img{
+  height: 30px;
+  width: 30px;
+}
+
+.info{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
