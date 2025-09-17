@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fdf2ce;
-  min-height: 95vh;
+  min-height: 100vh;
   overflow-x: hidden;
   box-sizing: border-box;
 }
@@ -28,8 +28,6 @@ button{
   background-image: url(../assets/images/{ACC646C8-B545-484C-AFDB-FFF340369CC9}\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
-
-    margin-top: 5rem;
     height: 60vh;
 
     color: white;
